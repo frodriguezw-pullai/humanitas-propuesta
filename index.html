@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta de Servicios — Humanitas | Pullai Data Partners</title>
+    <meta name="description" content="Propuesta de Pullai Data Partners para Humanitas: ordenar 24 años de información de headhunting en bases de datos, dashboards, scoring de candidatos e IA aplicada.">
+    <meta property="og:title" content="Propuesta de Servicios — Humanitas">
+    <meta property="og:description" content="De archivos dispersos a un sistema que recuerda. Datos, dashboards, scoring e IA para headhunting.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BS996ZL7F7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BS996ZL7F7');
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<nav id="navbar">
+    <div class="nav-container">
+        <a href="#inicio" aria-label="Pullai Data Partners">
+            <span class="wm">
+                <svg class="wave" viewBox="0 0 40 20" role="img" aria-label="Pullai">
+                    <path d="M2 13 C 8 13, 9 5, 14 5 C 19 5, 19 15, 24 15 C 29 15, 30 8, 38 8"
+                          fill="none" stroke="#FF2E63" stroke-width="2.2" stroke-linecap="round"/>
+                </svg>
+                <span>
+                    <span class="name" style="display:block;">Pullai</span>
+                    <span class="sub" style="display:block;">DATA&nbsp;PARTNERS</span>
+                </span>
+            </span>
+        </a>
+        <div class="nav-menu" id="navMenu">
+            <a href="#diagnostico" class="nav-link">Diagnóstico</a>
+            <a href="#enfoque" class="nav-link">Enfoque</a>
+            <a href="#modelo" class="nav-link">Modelo de datos</a>
+            <a href="#fases" class="nav-link">Fases</a>
+            <a href="#cronograma" class="nav-link">Cronograma</a>
+            <a href="#inversion" class="nav-link">Inversión</a>
+            <a href="#requisitos" class="nav-link">Requisitos</a>
+        </div>
+        <div class="nav-toggle" id="navToggle">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <svg class="hero-watermark" viewBox="0 0 250 120" aria-hidden="true">
+        <path d="M5 80 C 50 80, 55 25, 90 25 C 125 25, 125 95, 165 95 C 195 95, 198 50, 245 50"
+              fill="none" stroke="#FF2E63" stroke-width="6" stroke-linecap="round"/>
+    </svg>
+    <div class="hero-content">
+        <div class="wm wm-hero" style="justify-content:center; margin-bottom:36px;">
+            <svg class="wave" viewBox="0 0 40 20" role="img" aria-label="Pullai">
+                <path d="M2 13 C 8 13, 9 5, 14 5 C 19 5, 19 15, 24 15 C 29 15, 30 8, 38 8"
+                      fill="none" stroke="#FF2E63" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+            <span>
+                <span class="name" style="display:block;">Pullai</span>
+                <span class="sub" style="display:block;">DATA&nbsp;PARTNERS</span>
+            </span>
+        </div>
+        <p class="hero-subtitle">Propuesta de servicios</p>
+        <h1 class="hero-title">De archivos dispersos<br>a un sistema que recuerda</h1>
+        <p class="hero-client">Humanitas</p>
+        <p class="hero-date">Septiembre 2026</p>
+        <div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-bottom:34px;">
+            <span class="tag" style="color:#fff; background:rgba(255,255,255,0.10); border-color:rgba(255,255,255,0.22);">Catastro de datos</span>
+            <span class="tag" style="color:#fff; background:rgba(255,255,255,0.10); border-color:rgba(255,255,255,0.22);">Bases relacionales</span>
+            <span class="tag" style="color:#fff; background:rgba(255,255,255,0.10); border-color:rgba(255,255,255,0.22);">Dashboards</span>
+            <span class="tag" style="color:#fff; background:rgba(255,255,255,0.10); border-color:rgba(255,255,255,0.22);">Scoring de candidatos</span>
+            <span class="tag" style="color:#fff; background:rgba(255,255,255,0.10); border-color:rgba(255,255,255,0.22);">IA aplicada</span>
+        </div>
+        <a href="#diagnostico" class="btn-primary">Ver propuesta</a>
+        <div class="scroll-indicator"><div class="scroll-line"></div></div>
+    </div>
+</section>
+
+<!-- ================= DIAGNÓSTICO ================= -->
+<section id="diagnostico" class="section">
+    <div class="content-container">
+        <div class="section-header">
+            <span class="section-label">Punto de partida</span>
+            <div class="rule"></div>
+            <h2>Tienen 24 años de conocimiento. El problema es dónde está guardado.</h2>
+        </div>
+        <p class="intro-text">
+            Humanitas acumula información desde 2002 y la digitaliza desde 2005: clientes, cargos, candidatos,
+            propuestas, evaluaciones, facturación. Todo existe. Pero vive repartido entre carpetas de archivos,
+            planillas Excel y —sobre todo— la memoria de cada consultor. Eso hace que cada proceso parta casi de cero
+            y que el conocimiento del negocio se vaya con la persona.
+        </p>
+
+        <div class="cards-grid cols-3" style="margin-bottom:60px;">
+            <div class="diagnostic-card">
+                <div class="diagnostic-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="diagnostic-stat">2002 &rarr; hoy</span>
+                    <h4 style="font-size:19px; margin:6px 0 8px;">Historia sin estructura</h4>
+                    <p style="font-size:15px; color:var(--color-text-light);">Más de dos décadas de procesos ejecutados que hoy no se pueden consultar, comparar ni reutilizar.</p>
+                </div>
+            </div>
+            <div class="diagnostic-card">
+                <div class="diagnostic-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="diagnostic-stat">3 carpetas</span>
+                    <h4 style="font-size:19px; margin:6px 0 8px;">Administración fragmentada</h4>
+                    <p style="font-size:15px; color:var(--color-text-light);">Facturación, Contrato Comercial y Operaciones funcionan como silos: mismo proceso, tres registros distintos.</p>
+                </div>
+            </div>
+            <div class="diagnostic-card">
+                <div class="diagnostic-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="diagnostic-stat">Dependencia</span>
+                    <h4 style="font-size:19px; margin:6px 0 8px;">El método vive en las personas</h4>
+                    <p style="font-size:15px; color:var(--color-text-light);">Cada onboarding es ad hoc. No hay una metodología escrita para encontrar al candidato correcto.</p>
+                </div>
+            </div>
+        </div>
+
+        <h3 style="margin-bottom:10px;">Lo que hoy duele</h3>
+        <p class="intro-text" style="margin-bottom:34px;">
+            Nada de esto se resuelve con una planilla mejor hecha. Se resuelve moviendo la información
+            desde los archivos hacia una base de datos con la que se pueda trabajar.
+        </p>
+
+        <div class="before-after-grid">
+            <div class="before-card">
+                <h4 style="margin-bottom:14px;">Hoy</h4>
+                <ul>
+                    <li>La información del proceso vive en la cabeza del consultor o en su Excel</li>
+                    <li>Cada búsqueda de candidatos parte desde cero, sin aprovechar lo ya visto</li>
+                    <li>Los dashboards son planillas que alguien actualiza a mano</li>
+                    <li>El Informe Assessment se arma manualmente en PowerPoint, uno por uno</li>
+                    <li>La renta a ofrecer se estima por criterio, sin benchmark propio</li>
+                    <li>No hay visibilidad de qué tan rentable fue cada proyecto</li>
+                    <li>Los datos personales de candidatos no tienen trazabilidad ni control de acceso</li>
+                </ul>
+            </div>
+            <div class="after-card">
+                <h4 style="margin-bottom:14px;">Con esta propuesta</h4>
+                <ul>
+                    <li>El conocimiento queda en el sistema y sobrevive a la rotación del equipo</li>
+                    <li>Buscador sobre 24 años de candidatos, con scoring de ajuste al perfil</li>
+                    <li>Dashboards conectados a la base: siempre al día, sin trabajo manual</li>
+                    <li>Informe Assessment generado desde la data del proceso, listo para editar</li>
+                    <li>Simulación de oferta apoyada en el histórico de rentas de la propia firma</li>
+                    <li>Margen por proyecto visible mientras el proceso está en curso</li>
+                    <li>Registro de tratamiento y accesos alineado a la Ley 21.719</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="callout" style="margin-top:44px;">
+            <p style="font-size:17px;">
+                <strong>Una precisión honesta:</strong> el estado real de cada fuente lo confirmamos en la Fase 1.
+                Lo que se ve aquí es la hipótesis que levantamos en la reunión, no un diagnóstico cerrado.
+                Preferimos decirlo así antes que prometer certezas que todavía no tenemos.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= ENFOQUE ================= -->
+<section id="enfoque" class="section bg-dark">
+    <div class="content-container">
+        <div class="section-header">
+            <span class="section-label">Cómo trabajamos</span>
+            <div class="rule"></div>
+            <h2>Tu negocio habla un idioma. Tus datos hablan otro. Nosotros hablamos los dos.</h2>
+        </div>
+        <p class="intro-text">
+            No traemos una solución enlatada de headhunting. Nos sentamos con el equipo, entendemos cómo se corre
+            hoy un proceso de búsqueda en Humanitas, y recién después decidimos qué construir. Cada módulo se
+            co-diseña: ustedes definen la visión del negocio, nosotros la ejecutamos técnicamente.
+        </p>
+
+        <div class="cards-grid cols-4" style="margin-bottom:60px;">
+            <div class="pillar-card">
+                <div class="icon-circle">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 10a4 4 0 0 0-7.6-1.6A3.5 3.5 0 1 0 7 15h11a3 3 0 0 0 0-5z"/>
+                    </svg>
+                </div>
+                <h4>Infraestructura Cloud</h4>
+                <p style="color:rgba(255,255,255,0.7); font-size:15px;">Bases de datos, ingesta segura de archivos históricos y gobierno de datos sobre GCP, AWS o Azure.</p>
+            </div>
+            <div class="pillar-card">
+                <div class="icon-circle">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>
+                    </svg>
+                </div>
+                <h4>Visualización</h4>
+                <p style="color:rgba(255,255,255,0.7); font-size:15px;">Dashboards de pipeline, margen y facturación alineados a cómo el equipo toma decisiones, no al revés.</p>
+            </div>
+            <div class="pillar-card">
+                <div class="icon-circle">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M19 5l-3 3M8 16l-3 3"/>
+                    </svg>
+                </div>
+                <h4>Data Science</h4>
+                <p style="color:rgba(255,255,255,0.7); font-size:15px;">Scoring de ajuste candidato&ndash;cargo y benchmark de rentas construidos con la data propia de Humanitas.</p>
+            </div>
+            <div class="pillar-card">
+                <div class="icon-circle">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="4" y="8" width="16" height="12" rx="2"/><path d="M12 8V4M8 14h.01M16 14h.01M9 17h6"/>
+                    </svg>
+                </div>
+                <h4>Inteligencia Artificial</h4>
+                <p style="color:rgba(255,255,255,0.7); font-size:15px;">Generación del Informe Assessment, agente de consulta sobre la base y borradores de documentos de cierre.</p>
+            </div>
+        </div>
+
+        <h3 style="margin-bottom:26px;">Por qué Pullai</h3>
+        <div class="cards-grid cols-3">
+            <div class="pillar-card">
+                <span class="card-number">01</span>
+                <h4>El traductor</h4>
+                <p style="color:rgba(255,255,255,0.7); font-size:15px;">Cada decisión parte del problema de negocio, no de la herramienta. No necesitan un diccionario técnico para entender qué estamos haciendo.</p>
+            </div>
+            <div class="pillar-card">
+                <span class="card-number">02</span>
+                <h4>Servicio integral</h4>
+                <p style="color:rgba(255,255,255,0.7); font-size:15px;">Un mismo equipo hace ingeniería de datos, dashboards y agentes de IA. Nadie se pasa la pelota entre proveedores.</p>
+            </div>
+            <div class="pillar-card">
+                <span class="card-number">03</span>
+                <h4>Alguien que da la cara</h4>
+                <p style="color:rgba(255,255,255,0.7); font-size:15px;">Somos socios, no proveedores rotativos. Si algo no les conviene, se los decimos, aunque signifique vender menos.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= MODELO DE DATOS ================= -->
+<section id="modelo" class="section bg-light">
+    <div class="content-container">
+        <div class="section-header">
+            <span class="section-label">La columna vertebral</span>
+            <div class="rule"></div>
+            <h2>Tres bases maestras y un proceso que las conecta</h2>
+        </div>
+        <p class="intro-text">
+            Humanitas ya piensa el negocio en tres vistas: cliente, cargo y candidato. Ese es exactamente
+            el modelo de datos que hay que construir. Todo lo demás &mdash;facturación, informes, margen,
+            scoring&mdash; cuelga de esas tres bases y de la entidad que las relaciona: el proceso.
+        </p>
+
+        <div class="mermaid" style="margin-bottom:60px;">
+flowchart LR
+    CL["<b>CLIENTE</b><br/>Empresa · industria<br/>contactos · historial"]:::base
+    CA["<b>CARGO</b><br/>Perfil · funciones<br/>banda de renta"]:::base
+    CD["<b>CANDIDATO</b><br/>Trayectoria · evaluaciones<br/>renta · disponibilidad"]:::base
+    PR{"<b>PROCESO</b><br/>Lista larga → cierre"}:::core
+    FA["Facturación<br/>por hitos"]:::out
+    IA2["Informe<br/>Assessment"]:::out
+    MG["Margen del<br/>proyecto"]:::out
+    SC["Scoring de<br/>ajuste"]:::out
+    CL --> PR
+    CA --> PR
+    CD --> PR
+    PR --> FA
+    PR --> IA2
+    PR --> MG
+    PR --> SC
+    classDef base fill:#2E1B54,stroke:#2E1B54,color:#ffffff
+    classDef core fill:#FF2E63,stroke:#FF2E63,color:#ffffff
+    classDef out fill:#ffffff,stroke:#C9C2D8,color:#2E1B54
+        </div>
+
+        <h3 style="margin-bottom:10px;">El proceso de selección, convertido en datos</h3>
+        <p class="intro-text" style="margin-bottom:30px;">
+            Hoy las etapas existen como práctica compartida. Al convertirlas en estados de una base de datos,
+            cada una empieza a generar métricas: cuántos avanzan, cuánto demora, dónde se cae el proceso.
+        </p>
+
+        <div class="funnel" style="margin-bottom:56px;">
+            <div class="funnel-step"><span class="fs-num">01</span><span class="fs-name">Lista larga</span><span class="fs-note">Barrido top&ndash;down del mercado</span></div>
+            <div class="funnel-step"><span class="fs-num">02</span><span class="fs-name">Presentación</span><span class="fs-note">Candidatos propuestos al cliente</span></div>
+            <div class="funnel-step"><span class="fs-num">03</span><span class="fs-name">Entrevista</span><span class="fs-note">Evaluación y assessment</span></div>
+            <div class="funnel-step"><span class="fs-num">04</span><span class="fs-name">Feedback</span><span class="fs-note">Respuesta del cliente por candidato</span></div>
+            <div class="funnel-step"><span class="fs-num">05</span><span class="fs-name">Lista corta</span><span class="fs-note">Finalistas y ponderación</span></div>
+            <div class="funnel-step"><span class="fs-num">06</span><span class="fs-name">Cierre</span><span class="fs-note">Oferta, contratación y cobro</span></div>
+        </div>
+
+        <h3 style="margin-bottom:10px;">Arquitectura de datos</h3>
+        <p class="intro-text" style="margin-bottom:30px;">
+            Los archivos históricos no se cargan directo a un dashboard. Pasan por tres capas: primero se
+            preservan tal cual, luego se limpian y cruzan, y recién ahí se modelan para consumo.
+        </p>
+
+        <div class="medallion-grid" style="margin-bottom:20px;">
+            <div class="medallion-layer bronze">
+                <span class="medallion-badge">Raw</span>
+                <h4 style="font-size:20px;">Datos crudos</h4>
+                <p style="font-size:15px; color:var(--color-text-light);">Excel, CVs, minutas, informes y registros de facturación cargados sin alterar. Trazabilidad total al origen.</p>
+            </div>
+            <div class="medallion-connector">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </div>
+            <div class="medallion-layer silver">
+                <span class="medallion-badge">Silver</span>
+                <h4 style="font-size:20px;">Datos limpios</h4>
+                <p style="font-size:15px; color:var(--color-text-light);">Candidatos deduplicados, cargos normalizados, clientes unificados y fechas estandarizadas.</p>
+            </div>
+            <div class="medallion-connector">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </div>
+            <div class="medallion-layer gold">
+                <span class="medallion-badge">Gold</span>
+                <h4 style="font-size:20px;">Listo para usar</h4>
+                <p style="font-size:15px; color:var(--color-text-light);">Tablas modeladas que alimentan dashboards, buscador, scoring e informes. Una sola versión de la verdad.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FASES ================= -->
+<section id="fases" class="section">
+    <div class="content-container">
+        <div class="section-header">
+            <span class="section-label">El proyecto</span>
+            <div class="rule"></div>
+            <h2>Seis fases, cada una con su entregable</h2>
+        </div>
+        <p class="intro-text">
+            Cada fase es independiente y entrega algo utilizable por sí sola. Recomendamos este orden porque
+            construye sobre lo anterior, pero si en algún punto quieren detenerse, lo entregado sigue sirviendo.
+        </p>
+
+        <div class="phases-container">
+
+            <div class="phase-card">
+                <div class="phase-header">
+                    <span class="phase-number">1</span>
+                    <div>
+                        <h3 style="margin-bottom:2px;">Catastro de datos</h3>
+                        <p style="font-size:15px; color:var(--color-text-light);">Entender qué existe, dónde está y en qué estado.</p>
+                    </div>
+                    <div class="phase-meta"><strong>Mes 1</strong>4 semanas</div>
+                </div>
+                <div class="phase-content">
+                    <div class="two-col-grid" style="gap:40px; align-items:start;">
+                        <ul class="phase-list">
+                            <li>Inventario de las carpetas de Facturación, Contrato Comercial y Operaciones</li>
+                            <li>Clasificación del archivo histórico: CVs, minutas, propuestas, informes, contratos</li>
+                            <li>Evaluación de consistencia, duplicidad y vacíos por fuente</li>
+                            <li>Identificación de responsables por fuente y por área</li>
+                        </ul>
+                        <ul class="phase-list">
+                            <li>Mapeo de riesgo bajo la Ley 21.719 de protección de datos personales</li>
+                            <li>Priorización: qué se carga primero y qué puede esperar</li>
+                            <li>Definición del alcance real de la carga histórica</li>
+                        </ul>
+                    </div>
+                    <div class="deliverable">
+                        <strong>ENTREGABLE</strong> &mdash; Inventario de fuentes, diagnóstico de calidad con recomendaciones y mapa de riesgo legal sobre datos personales.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phase-card">
+                <div class="phase-header">
+                    <span class="phase-number">2</span>
+                    <div>
+                        <h3 style="margin-bottom:2px;">Arquitectura y flujo</h3>
+                        <p style="font-size:15px; color:var(--color-text-light);">Definir cómo se guardan, se cruzan y se consumen los datos.</p>
+                    </div>
+                    <div class="phase-meta"><strong>Mes 2</strong>3 a 4 semanas</div>
+                </div>
+                <div class="phase-content">
+                    <div class="two-col-grid" style="gap:40px; align-items:start;">
+                        <ul class="phase-list">
+                            <li>Modelo relacional de las tres bases maestras: Cliente, Cargo, Candidato</li>
+                            <li>Diseño de la entidad Proceso con sus estados y transiciones</li>
+                            <li>Definición de KPIs por área: comercial, operaciones y administración</li>
+                        </ul>
+                        <ul class="phase-list">
+                            <li>Definición de los hitos de facturación y su regla de cobro</li>
+                            <li>Metodología de cálculo de margen por proyecto</li>
+                            <li>Blueprint de arquitectura cloud y diccionario de datos</li>
+                        </ul>
+                    </div>
+                    <div class="deliverable">
+                        <strong>ENTREGABLE</strong> &mdash; Modelo de datos documentado, diccionario, definición de KPIs e hitos, y blueprint de arquitectura.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phase-card">
+                <div class="phase-header">
+                    <span class="phase-number">3</span>
+                    <div>
+                        <h3 style="margin-bottom:2px;">Estructura y carga de datos</h3>
+                        <p style="font-size:15px; color:var(--color-text-light);">Construir las bases y llenarlas con el histórico.</p>
+                    </div>
+                    <div class="phase-meta"><strong>Meses 3&ndash;4</strong>8 semanas</div>
+                </div>
+                <div class="phase-content">
+                    <div class="two-col-grid" style="gap:40px; align-items:start;">
+                        <ul class="phase-list">
+                            <li>Creación de las bases y sus relaciones en el entorno cloud</li>
+                            <li>Pipelines de extracción desde Excel y archivos del histórico</li>
+                            <li>Deduplicación de candidatos y normalización de cargos y clientes</li>
+                            <li>Carga priorizada del histórico según lo definido en Fase 1</li>
+                        </ul>
+                        <ul class="phase-list">
+                            <li>Control de accesos por rol y trazabilidad de consultas</li>
+                            <li>Formularios de carga para que el equipo alimente los procesos nuevos</li>
+                            <li><strong>Buscador de candidatos por perfil</strong> sobre la base ya cargada</li>
+                        </ul>
+                    </div>
+                    <div class="deliverable">
+                        <strong>ENTREGABLE</strong> &mdash; Bases operativas con el histórico cargado, buscador de candidatos funcionando y documentación de los pipelines.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phase-card">
+                <div class="phase-header">
+                    <span class="phase-number">4</span>
+                    <div>
+                        <h3 style="margin-bottom:2px;">Visualización</h3>
+                        <p style="font-size:15px; color:var(--color-text-light);">Reemplazar las planillas por dashboards conectados.</p>
+                    </div>
+                    <div class="phase-meta"><strong>Mes 5</strong>4 semanas</div>
+                </div>
+                <div class="phase-content">
+                    <div class="two-col-grid" style="gap:40px; align-items:start;">
+                        <ul class="phase-list">
+                            <li>Dashboard de pipeline: procesos activos por etapa, avance y tiempos</li>
+                            <li>Dashboard de rentabilidad: margen por proyecto, por cliente y por consultor</li>
+                            <li>Dashboard de facturación: hitos cumplidos, cobros emitidos y pendientes</li>
+                        </ul>
+                        <ul class="phase-list">
+                            <li>Vista 360°: ficha de cliente, de cargo y de candidato con todo su historial</li>
+                            <li>Control de acceso y de qué ve cada perfil de usuario</li>
+                            <li>Ciclo de ajuste con los usuarios reales antes de dar por cerrada la fase</li>
+                        </ul>
+                    </div>
+                    <div class="deliverable">
+                        <strong>ENTREGABLE</strong> &mdash; Suite de dashboards en producción, con permisos por rol y documentación de uso.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phase-card">
+                <div class="phase-header">
+                    <span class="phase-number">5</span>
+                    <div>
+                        <h3 style="margin-bottom:2px;">Analítica predictiva y scoring</h3>
+                        <p style="font-size:15px; color:var(--color-text-light);">Convertir el criterio experto en un método replicable.</p>
+                    </div>
+                    <div class="phase-meta"><strong>Mes 6</strong>4 semanas</div>
+                </div>
+                <div class="phase-content">
+                    <div class="two-col-grid" style="gap:40px; align-items:start;">
+                        <ul class="phase-list">
+                            <li>Scoring de ajuste candidato&ndash;cargo a partir del perfil solicitado por el cliente</li>
+                            <li>Ranking automático de la lista larga para acelerar el barrido top&ndash;down</li>
+                            <li>Modelo calibrado con los procesos históricos: qué perfiles efectivamente cerraron</li>
+                        </ul>
+                        <ul class="phase-list">
+                            <li>Benchmark interno de rentas por cargo, industria y seniority</li>
+                            <li>Simulador de oferta: renta actual, rango de mercado y propuesta sugerida</li>
+                            <li>Indicadores de riesgo de proceso: cuáles se están demorando más de lo normal</li>
+                        </ul>
+                    </div>
+                    <div class="deliverable">
+                        <strong>ENTREGABLE</strong> &mdash; Motor de scoring integrado al buscador, benchmark de rentas y simulador de oferta.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phase-card">
+                <div class="phase-header">
+                    <span class="phase-number">6</span>
+                    <div>
+                        <h3 style="margin-bottom:2px;">Aplicaciones e insights con IA</h3>
+                        <p style="font-size:15px; color:var(--color-text-light);">Que la data trabaje sola donde hoy se trabaja a mano.</p>
+                    </div>
+                    <div class="phase-meta"><strong>Mes 7</strong>4 semanas</div>
+                </div>
+                <div class="phase-content">
+                    <div class="two-col-grid" style="gap:40px; align-items:start;">
+                        <ul class="phase-list">
+                            <li><strong>Generación automática del Informe Assessment</strong> desde la data del proceso, con las ponderaciones acordadas</li>
+                            <li>Redacción cuidada de resultados: comunicar un score bajo sin descalificar a la persona</li>
+                            <li>Borradores de carta de oferta y condiciones a partir del cierre registrado</li>
+                        </ul>
+                        <ul class="phase-list">
+                            <li>Agente conversacional sobre las bases: consultas en lenguaje natural</li>
+                            <li>Alertas automáticas por procesos detenidos, hitos vencidos o márgenes bajo umbral</li>
+                            <li>Roadmap de integraciones futuras: Swell y encuestas de feedback de clientes</li>
+                        </ul>
+                    </div>
+                    <div class="deliverable">
+                        <strong>ENTREGABLE</strong> &mdash; Generador de Informe Assessment, agente de consulta, sistema de alertas y roadmap de evolución.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="callout" style="margin-top:44px;">
+            <p style="font-size:17px;">
+                <strong>Fuera de alcance en esta etapa.</strong> La integración con Swell para psicoevaluación y las
+                encuestas de feedback de clientes quedan documentadas en el roadmap, pero no se implementan en estas
+                seis fases. Tienen sentido cuando las bases ya estén funcionando, y se cotizan aparte.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= CRONOGRAMA ================= -->
+<section id="cronograma" class="section bg-light">
+    <div class="content-container">
+        <div class="section-header">
+            <span class="section-label">Cronograma</span>
+            <div class="rule"></div>
+            <h2>Siete meses de desarrollo</h2>
+        </div>
+        <p class="intro-text">
+            Las fases 2 y 3 se solapan a propósito: mientras se define el modelo, ya se empieza a construir la
+            estructura. Los plazos son estimativos y se reestiman al terminar la Fase 1, cuando sepamos el volumen
+            real del archivo histórico.
+        </p>
+
+        <div class="gantt-chart">
+            <div class="gantt-header">
+                <div class="gantt-label">Fase</div>
+                <div class="gantt-months">
+                    <span>Mes 1</span><span>Mes 2</span><span>Mes 3</span><span>Mes 4</span><span>Mes 5</span><span>Mes 6</span><span>Mes 7</span>
+                </div>
+            </div>
+
+            <div class="gantt-row">
+                <div class="gantt-label">1 &middot; Catastro de datos</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-1" style="grid-column:1/2;"></div></div>
+            </div>
+            <div class="gantt-row gantt-sub">
+                <div class="gantt-label">Levantamiento de fuentes</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-1" style="grid-column:1/2;"></div></div>
+            </div>
+            <div class="gantt-row gantt-sub">
+                <div class="gantt-label">Diagnóstico y riesgo legal</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-1" style="grid-column:1/2;"></div></div>
+            </div>
+
+            <div class="gantt-row">
+                <div class="gantt-label">2 &middot; Arquitectura y flujo</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-2" style="grid-column:2/3;"></div></div>
+            </div>
+            <div class="gantt-row gantt-sub">
+                <div class="gantt-label">Modelo Cliente/Cargo/Candidato</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-2" style="grid-column:2/3;"></div></div>
+            </div>
+            <div class="gantt-row gantt-sub">
+                <div class="gantt-label">KPIs, hitos y margen</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-2" style="grid-column:2/3;"></div></div>
+            </div>
+
+            <div class="gantt-row">
+                <div class="gantt-label">3 &middot; Estructura y carga</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-3" style="grid-column:3/5;"></div></div>
+            </div>
+            <div class="gantt-row gantt-sub">
+                <div class="gantt-label">Creación de bases y pipelines</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-3" style="grid-column:3/4;"></div></div>
+            </div>
+            <div class="gantt-row gantt-sub">
+                <div class="gantt-label">Carga histórica y deduplicación</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-3" style="grid-column:3/5;"></div></div>
+            </div>
+            <div class="gantt-row gantt-sub">
+                <div class="gantt-label">Buscador de candidatos</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-3" style="grid-column:4/5;"></div></div>
+            </div>
+
+            <div class="gantt-row">
+                <div class="gantt-label">4 &middot; Visualización</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-4" style="grid-column:5/6;"></div></div>
+            </div>
+            <div class="gantt-row gantt-sub">
+                <div class="gantt-label">Dashboards y vista 360°</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-4" style="grid-column:5/6;"></div></div>
+            </div>
+
+            <div class="gantt-row">
+                <div class="gantt-label">5 &middot; Analítica y scoring</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-5" style="grid-column:6/7;"></div></div>
+            </div>
+            <div class="gantt-row gantt-sub">
+                <div class="gantt-label">Scoring y benchmark de rentas</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-5" style="grid-column:6/7;"></div></div>
+            </div>
+
+            <div class="gantt-row">
+                <div class="gantt-label">6 &middot; Aplicaciones IA</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-6" style="grid-column:7/8;"></div></div>
+            </div>
+            <div class="gantt-row gantt-sub">
+                <div class="gantt-label">Informe Assessment y agente</div>
+                <div class="gantt-timeline"><div class="gantt-bar phase-6" style="grid-column:7/8;"></div></div>
+            </div>
+        </div>
+
+        <div class="timeline-legend">
+            <div class="legend-item"><span class="legend-color phase-1"></span> Catastro</div>
+            <div class="legend-item"><span class="legend-color phase-2"></span> Arquitectura</div>
+            <div class="legend-item"><span class="legend-color phase-3"></span> Estructura y carga</div>
+            <div class="legend-item"><span class="legend-color phase-4"></span> Visualización</div>
+            <div class="legend-item"><span class="legend-color phase-5"></span> Analítica y scoring</div>
+            <div class="legend-item"><span class="legend-color phase-6"></span> Aplicaciones IA</div>
+        </div>
+
+        <h3 style="margin:60px 0 10px;">No hay que esperar siete meses para ver algo</h3>
+        <p class="intro-text" style="margin-bottom:30px;">
+            Dos entregas atacan directamente los dolores que más tiempo consumen hoy, y llegan antes del cierre del proyecto.
+        </p>
+        <div class="quickwin-grid">
+            <div class="quickwin">
+                <span class="qw-when">Mes 4</span>
+                <h4>Buscador de candidatos</h4>
+                <p>Sobre la primera carga del histórico. Deja de depender de que alguien recuerde a quién se entrevistó hace tres años para un cargo parecido. Es el primer golpe contra el "la información vive en las cabezas".</p>
+            </div>
+            <div class="quickwin">
+                <span class="qw-when">Mes 7</span>
+                <h4>Informe Assessment automático</h4>
+                <p>El informe se arma desde la data del proceso, con las ponderaciones acordadas y el lenguaje cuidado que Humanitas ya usa. El consultor edita y valida, en vez de construir desde cero cada vez.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= INVERSIÓN ================= -->
+<section id="inversion" class="section">
+    <div class="content-container">
+        <div class="section-header">
+            <span class="section-label">Inversión</span>
+            <div class="rule"></div>
+            <h2>Suscripción mensual, sin desembolso inicial</h2>
+        </div>
+        <p class="intro-text">
+            En vez de cobrar cada fase por separado, trabajamos con una cuota mensual mientras dura el desarrollo.
+            Ustedes pagan a medida que ven avance, y pueden evaluar el proyecto mes a mes en lugar de comprometer
+            todo el presupuesto por adelantado.
+        </p>
+
+        <div class="budget-phases">
+            <div class="budget-card featured">
+                <div class="budget-header">
+                    <span class="budget-ribbon">Fases 1 a 6</span>
+                    <h3>Desarrollo</h3>
+                    <p class="budget-period">7 meses estimados</p>
+                </div>
+                <div class="budget-amount">
+                    <span class="amount-value"><span class="uf">UF 30</span> / mes + IVA</span>
+                    <span class="amount-detail">Total estimado del desarrollo: UF 210 + IVA</span>
+                </div>
+                <div class="budget-includes">
+                    <h4>Incluye</h4>
+                    <ul>
+                        <li>Las seis fases completas, desde el catastro hasta las aplicaciones de IA</li>
+                        <li>Equipo Pullai dedicado: ingeniería de datos, visualización y data science</li>
+                        <li>Infraestructura cloud diseñada y dejada operativa</li>
+                        <li>Documentación técnica y capacitación al equipo de Humanitas</li>
+                        <li>Reuniones de avance y ajuste durante todo el desarrollo</li>
+                    </ul>
+                </div>
+                <div class="budget-total">
+                    <span>Cuota mensual</span>
+                    <span>UF 30 + IVA</span>
+                </div>
+            </div>
+
+            <div class="budget-card">
+                <div class="budget-header">
+                    <span class="budget-ribbon" style="background:var(--color-primary);">Post proyecto</span>
+                    <h3>Mantención y evolución</h3>
+                    <p class="budget-period">Continuo, a partir del mes 8</p>
+                </div>
+                <div class="budget-amount">
+                    <span class="amount-value"><span class="uf">UF 15</span> / mes + IVA</span>
+                    <span class="amount-detail">Renovación mensual</span>
+                </div>
+                <div class="budget-includes">
+                    <h4>Incluye</h4>
+                    <ul>
+                        <li><strong>10 horas mensuales</strong> de cambios y desarrollos nuevos</li>
+                        <li><strong>Reunión semanal</strong> de seguimiento con el equipo</li>
+                        <li>Monitoreo de calidad de datos y alertas de integridad</li>
+                        <li>Recalibración del scoring con los procesos nuevos que se van cerrando</li>
+                        <li>Backlog de mejoras priorizado en conjunto</li>
+                        <li>Incorporación de nuevas fuentes de datos a medida que aparezcan</li>
+                        <li>Acceso a las capacidades nuevas que Pullai vaya desarrollando</li>
+                    </ul>
+                </div>
+                <div class="budget-total">
+                    <span>Cuota mensual</span>
+                    <span>UF 15 + IVA</span>
+                </div>
+            </div>
+        </div>
+
+        <h3 style="margin:20px 0 26px;">Detalle por fase</h3>
+        <div class="table-responsive">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th style="width:26%;">Fase</th>
+                        <th style="width:14%;">Período</th>
+                        <th>Entregable principal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="cell-accent">1</span> Catastro de datos</td>
+                        <td>Mes 1</td>
+                        <td>Inventario de fuentes, diagnóstico de calidad y mapa de riesgo Ley 21.719</td>
+                    </tr>
+                    <tr>
+                        <td><span class="cell-accent">2</span> Arquitectura y flujo</td>
+                        <td>Mes 2</td>
+                        <td>Modelo Cliente / Cargo / Candidato, KPIs, hitos de facturación y blueprint cloud</td>
+                    </tr>
+                    <tr>
+                        <td><span class="cell-accent">3</span> Estructura y carga</td>
+                        <td>Meses 3&ndash;4</td>
+                        <td>Bases operativas con histórico cargado + buscador de candidatos</td>
+                    </tr>
+                    <tr>
+                        <td><span class="cell-accent">4</span> Visualización</td>
+                        <td>Mes 5</td>
+                        <td>Dashboards de pipeline, margen y facturación + vista 360°</td>
+                    </tr>
+                    <tr>
+                        <td><span class="cell-accent">5</span> Analítica y scoring</td>
+                        <td>Mes 6</td>
+                        <td>Scoring de candidatos, benchmark de rentas y simulador de oferta</td>
+                    </tr>
+                    <tr>
+                        <td><span class="cell-accent">6</span> Aplicaciones IA</td>
+                        <td>Mes 7</td>
+                        <td>Informe Assessment automático, agente conversacional y alertas</td>
+                    </tr>
+                    <tr class="table-total">
+                        <td>Total desarrollo</td>
+                        <td>7 meses</td>
+                        <td>UF 210 + IVA &nbsp;&middot;&nbsp; UF 30 mensuales</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="callout" style="margin-top:40px;">
+            <p style="font-size:17px;">
+                <strong>Compromiso por fase, no por siete meses.</strong> Al cierre de cada fase se evalúa el avance
+                en conjunto. Si Humanitas decide detener el proyecto, lo entregado hasta ese punto queda operativo y
+                documentado, y el aviso corre con 30 días.
+            </p>
+        </div>
+
+        <div class="callout" style="margin-top:20px;">
+            <p style="font-size:17px;">
+                <strong>Sobre el valor de la UF y el IVA.</strong> Los montos se expresan en UF y se facturan en pesos
+                al valor del día de emisión. Todos los valores indicados son netos, sin IVA incluido.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= REQUISITOS ================= -->
+<section id="requisitos" class="section bg-light">
+    <div class="content-container">
+        <div class="section-header">
+            <span class="section-label">Para partir</span>
+            <div class="rule"></div>
+            <h2>Qué necesitamos de Humanitas</h2>
+        </div>
+        <p class="intro-text">
+            Nada de esto requiere trabajo previo de ordenamiento. Los archivos pueden entregarse tal como están
+            hoy: desordenados, incompletos o duplicados. Ordenarlos es justamente el trabajo.
+        </p>
+
+        <div class="table-responsive" style="margin-bottom:60px;">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th style="width:30%;">Requisito</th>
+                        <th>Detalle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Responsables por área</strong></td>
+                        <td>Una persona de referencia para Facturación, otra para Contrato Comercial y otra para Operaciones. Son quienes resuelven dudas y validan supuestos durante el catastro.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Acceso al archivo histórico</strong></td>
+                        <td>Acceso de lectura a las carpetas y planillas, incluyendo el material anterior a 2005 si existe en digital. Tal como estén, sin limpieza previa.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dashboards y reportes actuales</strong></td>
+                        <td>Los Excel y reportes que hoy se usan para decidir. Sirven para entender qué métricas importan de verdad y no rehacer lo que ya funciona.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Definición de entorno cloud</strong></td>
+                        <td>Si ya existe una cuenta corporativa (GCP, AWS o Azure), habilitar accesos controlados. Si no existe, definir si Pullai la crea y administra.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Contraparte para KPIs e hitos</strong></td>
+                        <td>Un socio o gerente con autoridad para definir los hitos de facturación, la fórmula de margen y las ponderaciones del Informe Assessment.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Muestras de entregables</strong></td>
+                        <td>Ejemplos reales de Informe Assessment, carta de oferta y propuesta comercial, para replicar el formato y el lenguaje que Humanitas ya usa.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3 style="margin-bottom:26px;">Responsabilidades y alcance</h3>
+        <div class="table-responsive">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th style="width:30%;">Tema</th>
+                        <th>Definición</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Protección de datos personales</strong></td>
+                        <td>Humanitas actúa como responsable del tratamiento bajo la Ley 21.719: consentimiento, derechos de los titulares y base legal del tratamiento. Pullai asegura la alineación técnica (control de accesos, trazabilidad, minimización) pero no asume las obligaciones frente a candidatos y clientes.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Acceso a datos</strong></td>
+                        <td>Las credenciales y accesos a plataformas los provee Humanitas. Pullai no se responsabiliza por demoras causadas por falta de acceso o permisos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Calidad de los datos</strong></td>
+                        <td>Pullai asume que los archivos entregados reflejan la información real disponible. No nos responsabilizamos por errores derivados de vacíos o inconsistencias en los sistemas de origen, aunque sí los identificamos y reportamos en el diagnóstico.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Seguridad e infraestructura</strong></td>
+                        <td>La seguridad del entorno cloud (IAM, firewalls, respaldos) es responsabilidad de Humanitas. Pullai aplica buenas prácticas, pero no administra el hosting salvo acuerdo expreso.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dependencias de terceros</strong></td>
+                        <td>Pullai no se hace responsable por interrupciones o cambios en plataformas externas (por ejemplo, Swell), salvo que hayan sido incluidas explícitamente en el alcance.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Solicitudes de cambio</strong></td>
+                        <td>Los cambios de alcance posteriores a la entrega de una fase se gestionan dentro de las horas de mantención o se cotizan aparte según su magnitud.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Propiedad intelectual</strong></td>
+                        <td>Los entregables desarrollados para Humanitas (bases, dashboards, lógica de negocio, modelos de scoring entrenados con su data) le pertenecen. Pullai retiene la propiedad de sus tecnologías núcleo: frameworks de conectores, plantillas de infraestructura y componentes de automatización interna.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- ================= CONTACTO ================= -->
+<section id="contacto" class="section bg-dark">
+    <div class="content-container">
+        <div class="section-header" style="text-align:center;">
+            <span class="section-label">Siguiente paso</span>
+            <h2 style="max-width:100%;">Conversemos la Fase 1</h2>
+        </div>
+        <p class="intro-text" style="text-align:center; margin:0 auto 20px;">
+            El catastro de datos es el punto de entrada natural: en un mes sabremos exactamente qué hay,
+            qué se puede aprovechar y cuánto trabajo real implica el resto del proyecto.
+        </p>
+        <div class="contact-grid">
+            <div class="contact-item">
+                <span>Correo</span>
+                <a href="mailto:felipe@pullai.cl">felipe@pullai.cl</a>
+            </div>
+            <div class="contact-item">
+                <span>Sitio</span>
+                <a href="https://pullai.cl" target="_blank" rel="noopener">pullai.cl</a>
+            </div>
+            <div class="contact-item">
+                <span>Propuesta</span>
+                <p>Septiembre 2026</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <div class="content-container footer-inner">
+        <div class="wm wm-footer">
+            <svg class="wave" viewBox="0 0 40 20" role="img" aria-label="Pullai">
+                <path d="M2 13 C 8 13, 9 5, 14 5 C 19 5, 19 15, 24 15 C 29 15, 30 8, 38 8"
+                      fill="none" stroke="#FF2E63" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+            <span>
+                <span class="name" style="display:block;">Pullai</span>
+                <span class="sub" style="display:block;">DATA&nbsp;PARTNERS</span>
+            </span>
+        </div>
+        <p class="footer-text">Propuesta de servicios &mdash; Humanitas</p>
+        <p class="footer-copyright">&copy; 2026 Pullai Data Partners. Documento confidencial.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>
