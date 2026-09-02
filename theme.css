@@ -111,7 +111,7 @@
 .budget-header { background: linear-gradient(135deg, #F7F5FA 0%, #FFFFFF 100%); }
 .amount-value { color: var(--color-primary); font-weight: 500; }
 .amount-value .uf { color: var(--color-accent); }
-.budget-includes li::before { color: var(--color-accent); }
+.budget-includes li::before { color: #2E9E5B; }
 .budget-note { border-left-color: var(--color-accent); background: rgba(255,46,99,0.04); }
 .budget-ribbon {
     display: inline-block;
@@ -176,8 +176,8 @@
 
 /* --- Antes / Después --- */
 .before-card { border-top-color: #C0392B; }
-.after-card { border-top-color: #2E1B54; }
-.after-card li::before { content: '\2713'; color: var(--color-accent); }
+.after-card { border-top-color: #2E9E5B; }
+.after-card li::before { content: '\2713'; color: #2E9E5B; }
 
 /* --- Mermaid --- */
 .mermaid { background: #fff; padding: 30px 20px; border: 1px solid var(--color-border); }
