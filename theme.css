@@ -183,7 +183,7 @@
 .mermaid { background: #fff; padding: 30px 20px; border: 1px solid var(--color-border); }
 
 /* --- Quick wins --- */
-.quickwin-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.quickwin-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .quickwin {
     padding: 28px;
     border: 1px solid var(--color-border);
